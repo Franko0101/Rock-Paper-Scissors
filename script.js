@@ -12,4 +12,6 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice());
+function getHumanChoice() {
+    return prompt("Insert rock, paper or scissors");
+}
